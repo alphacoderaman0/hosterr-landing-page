@@ -3,7 +3,7 @@ import React from 'react'
 const Body = () => {
   return (
     <div className='space-y-4 lg:flex flex-row-reverse'>
-        <div className='flex items-center justify-center lg:flex-1 lg:h-[400px] lg:justify-end'>
+        <div className='flex items-center justify-center lg:flex-1 lg:h-[400px] '>
             <img src="./assets/Blue-Shape.svg" alt="Loading" className=' -rotate-[45deg] h-64 md:h-72 lg:h-[400px]' />
             <img src="./assets/Pink-Shape.svg" alt="Loading" className='absolute -rotate-[30deg] h-64 md:h-72 lg:h-[400px]' />
             <img src="./assets/Purple-Shape.svg" alt="Loading" className='absolute -rotate-[15deg] h-64 md:h-72 lg:h-[400px]' />
